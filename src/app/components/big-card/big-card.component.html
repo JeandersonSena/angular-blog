@@ -2,7 +2,7 @@
 
   <div class="big-card__photo">
 
-    <img src="https://www.devmedia.com.br/arquivos/cursos/curso_o_que_e_angular_2312.jpg"
+    <img src="{{photoCover}}"
      alt=""
      height="200px"
 
@@ -12,16 +12,14 @@
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular </a></h1>
+    <h1><a href="#">{{ cardTitle }} </a></h1>
 
   </div>
 
   <div class="big-card__discription">
     <p>
-      <a href="#">O Angular é um framework JavaScript que simplifica não apenas a construção da interface de usuário, mas também o desenvolvimento de aplicações client-side diferenciadas, sejam elas para a web, mobile ou desktop.
-
-
-        O Angular usa a linguagem TypeScript como padrão, ao invés do JavaScript. Então você pode aprofundar seus estudos sobre essa.
+      <a href="#">
+        {{ cardDescription }}
       </a>
     </p>
 
